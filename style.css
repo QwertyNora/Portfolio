@@ -1,0 +1,155 @@
+@import url('https://fonts.googleapis.com/css2?family=Phudu&family=Playfair+Display&family=Poppins&family=Quicksand&family=Roboto&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Phudu';
+}
+
+
+body {
+    background-color: hsla(0, 100%, 50%, 1);
+    height: 900px;
+    background: #ff9966; /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #ff9966, #ff5e62); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #ff9966, #ff5e62); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+/* --- Stil för Header / Nav --- */
+.page-header {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 3rem;
+    justify-content: space-around;
+    align-items: center;
+    position: relative;
+    height:min-content;
+    color: #FFFFFF;
+}
+
+.custom-shape-divider-bottom-1694088456 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    transform: rotate(180deg);
+}
+
+.custom-shape-divider-bottom-1694088456 svg {
+    position: relative;
+    display: block;
+    width: calc(140% + 1.3px);
+    height: 96px;
+}
+
+.custom-shape-divider-bottom-1694088456 .shape-fill {
+    fill: #FFFFFF;
+}
+
+.profile__image {
+    display: flex;
+    padding: 2rem;
+}
+
+.profile__image img {
+    width: 300px;
+    border-radius: 250px;
+    filter: drop-shadow(20px 15px 20px #3e010166);
+}
+
+h1 {
+    font-size: 5vh;
+    text-transform: uppercase;
+    letter-spacing: 0.3rem;
+}
+
+
+nav ul {
+    display: flex;
+    flex-direction: row;
+    gap: 5rem;
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+/* --- Stil för länkar/iconer */
+.icon__image {
+    width: 2rem;
+    filter: drop-shadow(2px 1px 4px #ffffff37);
+}
+
+/* --- Stil för Main --- */
+main {
+    display: flex;
+    background-color: #FFFFFF;
+}
+
+.hero-section {
+    color: #ff5e62;
+    display: flex;
+    flex-direction: column;
+    align-items: center;    
+    padding: 2rem;
+}
+
+.hero-section > h2 {
+    font-size: 5vh;
+    padding-bottom: 30px;
+}
+
+.wrapper {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 10vh;
+}
+
+.content {
+    display: flex;
+    flex-direction: row;
+    gap: 10px 40px;
+}
+
+.content-title {
+    min-width: max-content;
+
+}
+
+.content-text {
+    max-width: 500px;
+    font-family: 'Poppins';
+}
+
+h2 {
+    color: #e7575a;
+}
+
+/* --- Stil för Footer */
+footer {
+    background-color: #fff;
+    text-align: center;
+    padding: 30px;
+}
+
+/* 
+
+Källor:
+
+Shapedivider.app - skapat vågorna
+
+uiGradients.com - skapat gradient bakgrund till header
+
+Remini (app telefon) - skapat profilbild
+
+Flaticon - iconer
+Kreatör: https://www.flaticon.com/authors/popcornarts
+Icon Pack: Social media special
+
+
+*/
